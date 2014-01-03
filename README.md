@@ -73,7 +73,7 @@ old ThinkPad with dual-core 2.1 GHz CPU (but none of the solutions is
 multi-threaded anyway), and the JVM process was given 2 GB maximal heap space.
 
 | Model     | Henshin Time | FunnyQT Time |
-|-----------+--------------+--------------|
+| --------- | ------------:| ------------:|
 | 170,000   | 3.3 sec      | 2.2 sec      |
 | 340,000   | 7.3 sec      | 4.4 sec      |
 | 510,000   | 5.7 sec      | 6.9 sec      |
