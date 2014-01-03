@@ -1,6 +1,7 @@
 # Finding Movie Couples
 
-This is a FunnyQT implementation of the transformation discussed at
+This is a FunnyQT implementation of the Henshin transformation discussed by
+Christian Krause at
 http://www.ckrause.org/2013/12/path-constraints-in-henshin.html.
 
 The goal is to find pairs of Actors/Actresses that act together in at least
@@ -87,8 +88,9 @@ multi-threaded anyway), and the JVM process was given 2 GB maximal heap space.
 You can run the FunnyQT solution simply by cloning this repository and doing:
 
 ```
-$ cd funnyqt-movie-couples
-$ lein test
+$ cd funnyqt-movie-couples        # Change into the cloned repo directory
+$ tar xvJf example-models.tar.xz  # Unzip the example models
+$ lein test                       # Run the benchmark
 ```
 
 You need the `lein` script from http://leiningen.org.
