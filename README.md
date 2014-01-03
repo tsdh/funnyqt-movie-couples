@@ -1,7 +1,7 @@
 # Finding Movie Couples
 
-This is a FunnyQT implementation of the Henshin transformation discussed by
-Christian Krause at
+This is a [FunnyQT](http://jgralab.github.io/funnyqt/) implementation of the
+Henshin transformation discussed by Christian Krause at
 http://www.ckrause.org/2013/12/path-constraints-in-henshin.html.
 
 The goal is to find pairs of Actors/Actresses that act together in at least
@@ -72,18 +72,18 @@ the size of 170,000 nodes to 1,700,000 nodes.  All tests were run on my 5 years
 old ThinkPad with dual-core 2.1 GHz CPU (but none of the solutions is
 multi-threaded anyway), and the JVM process was given 2 GB maximal heap space.
 
-| Model     | Henshin Time | FunnyQT Time |
-| --------- | ------------:| ------------:|
-| 170,000   | 3.3 sec      | 2.2 sec      |
-| 340,000   | 7.3 sec      | 4.4 sec      |
-| 510,000   | 5.7 sec      | 6.9 sec      |
-| 680,000   | 7.2 sec      | 10.7 sec     |
-| 850,000   | 14.1 sec     | 12.8 sec     |
-| 1,020,000 | 17.4 sec     | 14.7 sec     |
-| 1,190,000 | 19.4 sec     | 17.4 sec     |
-| 1,360,000 | 13.2 sec     | 14.1 sec     |
-| 1,530,000 | 15.9 sec     | 17.0 sec     |
-| 1,700,000 | 17.8 sec     | 17.6 sec     |
+| Model Size (#nodes) | Henshin Time | FunnyQT Time |
+| -------------------:| ------------:| ------------:|
+| 170,000             | 3.3 sec      | 2.2 sec      |
+| 340,000             | 7.3 sec      | 4.4 sec      |
+| 510,000             | 5.7 sec      | 6.9 sec      |
+| 680,000             | 7.2 sec      | 10.7 sec     |
+| 850,000             | 14.1 sec     | 12.8 sec     |
+| 1,020,000           | 17.4 sec     | 14.7 sec     |
+| 1,190,000           | 19.4 sec     | 17.4 sec     |
+| 1,360,000           | 13.2 sec     | 14.1 sec     |
+| 1,530,000           | 15.9 sec     | 17.0 sec     |
+| 1,700,000           | 17.8 sec     | 17.6 sec     |
 
 You can run the FunnyQT solution simply by cloning this repository and doing:
 
